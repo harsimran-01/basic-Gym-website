@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Website</title>
+</head>
+<style>
+    body{
+        margin: 0px;
+        padding: 0px;
+        background: url("background.jpg");
+        background-size: cover;
+        font-family: sans-serif;
+    }
+
+    header{
+        display: flex;  
+    }
+
+    .left{
+        color: aliceblue;
+        /* border: 2px solid white; */
+        margin: 25px;
+        font-size: 30px;
+        display: inline-block;
+
+    }
+    .right{
+        display: inline-block;
+        margin: auto;
+    }
+    nav{
+        display: block;
+    }
+    nav li{
+        display: inline-block;
+
+    }
+    nav li a{
+        text-decoration: none;
+        color: aliceblue;
+        display: inline-block;
+        padding: 12px;
+        font-size: 28px;
+    }
+    nav li a:hover{
+        color: lightskyblue;
+        font-size: 30px;
+        
+    }
+
+    .main-body{
+        border: 2px solid white;
+        color: aliceblue;
+        display: inline-block;
+        margin: 50px;
+        padding: 50px;
+    }
+    .main-body p{
+        text-align: center;
+        font-size: 25px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+    }
+    input{
+        padding: 20px;
+        margin:10px;
+    }
+    
+
+</style>
+<body>
+    <header>
+        <div class="left">
+            <p>Fitness <br> Club</p>
+
+        </div>
+        <div class="right">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="main-body">
+        <p>JOIN THE BEST GYM OF ZIRAKPUR</p>
+        <form action="submit">
+            <input type="text" name="name" placeholder="ENTER YOUR NAME">
+            <input type="number" name="number" placeholder="ENTER YOUR NUMBER">
+            <input type="number" name="age" placeholder="ENTER YOUR AGE">
+            <input type="text" name="gender" placeholder="ENTER YOUR GENDER">
+        </form>
+        <BUTTON>SUBMIT</BUTTON>
+    </div>
+    
+</body>
+</html>
